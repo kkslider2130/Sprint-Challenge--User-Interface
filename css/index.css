@@ -267,4 +267,45 @@ img.logo{
 /* contact form */
 
 
+input.text, select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(172, 170, 170); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 480px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(83, 83, 83);
+    
+  }
+  
+  .forms-container {
+    margin: 100px 120px 70px 160px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
 
+  .forms-container label{
+      font-size: 20px;
+  }
+
+  #subject{
+      height: 200px;
+  }
