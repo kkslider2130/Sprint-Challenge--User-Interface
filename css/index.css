@@ -47,6 +47,8 @@ table {
 	border-spacing: 0;
 }
 
+/*--end reset--*/
+
 * {
     box-sizing: border-box;
 }
@@ -57,17 +59,19 @@ html, body {
 }
 
 h1, h2, h3, h4, h5 {
-    font-size: 18px;
-    margin-bottom: 15px;
+    font-size: 40px;
+    margin-bottom: 25px;
     font-family: 'Rubik', sans-serif;
 }
 
 p {
     line-height: 1.4;
+    font-size: 22px;
+    margin-bottom: 20px;
 }
 
 .container {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -86,7 +90,8 @@ p {
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    margin-top: 60px;
+    margin-bottom: 30px;
     border-bottom: 1px dashed black;
 }
 
@@ -103,9 +108,9 @@ p {
 
 .middle-content .boxes .box {
     width: 12.5%;
-    height: 100px;
+    height: 140px;
     background: black;
-    margin: 20px 2.5%;
+    margin: 40px 2.5%;
     color: white;
     display: flex;
     align-items: center;
@@ -133,6 +138,7 @@ footer {
 
 footer nav {
     width: 60%;
+    height: 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -143,4 +149,163 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+    margin-left: 90px;
 }
+/*--start code--*/
+
+.nav-bar{
+	width: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: white;
+	padding: 0 40px;
+	height: 65px;
+	line-height: 60px;
+	z-index: 10;
+}
+
+nav a{
+	padding-right: 85px;
+	color: black;
+	text-decoration: none;
+	margin-left: 35px;
+
+}
+
+nav a:hover{
+	color: white;
+}
+
+img.logo{
+	width: 160px;
+	height: 40px;
+	margin-top: 10px;
+    float: left;
+    margin-left: 100px;
+	position: relative;
+}
+
+.jumbo{
+    width: 80%;
+    height: 240px;
+    margin: 100px 0px 40px 140px;
+}
+
+/* box colors */
+
+#box1{
+    background-color: darkcyan;
+}
+
+#box2{
+    background-color: gold;
+}
+
+#box3{
+    background-color: cadetblue;
+}
+
+#box4{
+    background-color: coral;
+}
+
+#box5{
+    background-color: crimson;
+}
+
+#box6{
+    background-color: forestgreen;
+}
+
+#box7{
+    background-color: darkviolet;
+}
+
+#box8{
+    background-color: hotpink;
+}
+
+#box9{
+    background-color: indigo;
+}
+
+#box10{
+    background-color: dodgerblue;
+}
+
+/*---about page----*/
+.about-img{
+    width: 100%;
+}
+.about-section {
+  
+    margin: 30px 60px 50px 100px;
+    
+}
+
+.parent{
+    display: flex;
+    margin: 80px 0px 60px 230px;
+}
+
+.parent div{
+    width: 45%;
+    justify-content: space-around;
+}
+
+.learn-btn{
+    padding: 5px 30px 5px 30px;
+    margin-bottom: 30px;
+}
+
+.closing{
+    width: 80%;
+    margin: 60px 0px 90px 120px;
+}
+
+/* contact form */
+
+
+input.text, select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid rgb(172, 170, 170); 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 10px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 480px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(83, 83, 83);
+    
+  }
+  
+  .forms-container {
+    margin: 100px 120px 70px 160px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .forms-container label{
+      font-size: 20px;
+  }
+
+  #subject{
+      height: 200px;
+  }
